@@ -196,14 +196,12 @@ class PlayerMngr{
     }
 }
 
-class RoundCntlr{
+class GameCntlr{
     constructor(){
         this.numPlayer_ = 0;
         this.curStage_ = 0;
+        this.playerOrder_ = []
     }
-} 
-
-class GameCntlr{
     checkGameEnd(){
           //	2位玩家	3位玩家	4位玩家	5位玩家	6位玩家
 // 玩家使用的區域範圍數	3	3	4	5	5
@@ -217,7 +215,6 @@ class GameCntlr{
 
 class PowerGrid{
     constructor(){
-        this.roundCntlr_ = new RoundCntlr();
         this.gameCntlr_ = new GameCntlr();
         this.powerGenerateMngr_ = new PowerGenerateMngr();
         this.fuelMngr_ = new FuelMngr();
