@@ -28,7 +28,7 @@ class Player{
         this.curFuel_ = [0,0,0,0];
         this.curHouses_ = 0;
     }
-    getPowerStation(PowerStation p){
+    getPowerStation(p){
         if(this.powerStations_.length == 3){
             choosePowerStation2Discard()
         }
@@ -70,8 +70,8 @@ class DeckMngr{
     constructor(){
         this.decks_ = [];
         this.stage3decks_ = [];
-        this.decks_.push(PowerStation(04,0,2,1));
-        this.decks_.push(PowerStation(08,0,3,2));
+        this.decks_.push(PowerStation(4,0,2,1));
+        this.decks_.push(PowerStation(8,0,3,2));
         this.decks_.push(PowerStation(10,0,2,2));
         this.decks_.push(PowerStation(15,0,2,3));
         this.decks_.push(PowerStation(20,0,3,5));
@@ -80,22 +80,22 @@ class DeckMngr{
         this.decks_.push(PowerStation(36,0,3,7));
         this.decks_.push(PowerStation(42,0,2,6));
 
-        this.decks_.push(PowerStation(03,1,2,1));
-        this.decks_.push(PowerStation(07,1,3,2));
-        this.decks_.push(PowerStation(09,1,1,1));
+        this.decks_.push(PowerStation(3,1,2,1));
+        this.decks_.push(PowerStation(7,1,3,2));
+        this.decks_.push(PowerStation(9,1,1,1));
         this.decks_.push(PowerStation(16,1,2,3));
         this.decks_.push(PowerStation(26,1,2,5));
         this.decks_.push(PowerStation(32,1,3,6));
         this.decks_.push(PowerStation(35,1,1,5));
         this.decks_.push(PowerStation(40,1,2,6));
 
-        this.decks_.push(PowerStation(05,4,2,1));
+        this.decks_.push(PowerStation(5,4,2,1));
         this.decks_.push(PowerStation(12,4,2,2));
         this.decks_.push(PowerStation(21,4,2,4));
         this.decks_.push(PowerStation(29,4,1,4));
         this.decks_.push(PowerStation(46,4,3,7));
         
-        this.decks_.push(PowerStation(06,2,1,1));
+        this.decks_.push(PowerStation(6,2,1,1));
         this.decks_.push(PowerStation(14,2,2,2));
         this.decks_.push(PowerStation(19,2,2,3));
         this.decks_.push(PowerStation(24,2,2,4));
