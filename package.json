@@ -18,9 +18,12 @@
   },
   "homepage": "https://github.com/SillyDuck/PowerGrid#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "prompt-sync": "^4.2.0"
   },
   "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/prompt-sync": "^4.1.0",
     "typescript": "^3.9.3"
   }
 }
